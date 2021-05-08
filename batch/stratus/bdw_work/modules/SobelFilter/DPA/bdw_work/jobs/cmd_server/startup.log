@@ -1,0 +1,2351 @@
+ Starting Stratus DPOpt (Linux)
+  Time: May 03, 2021. 02:41:41
+  Host: ws32
+  User: m109061613
+  Args: --dofile /usr/cadtool/cadence/STRATUS/cur/share/stratus/tcl/bdw_cmd_shell.tcl --locallogfile /dev/null -x bdw_server_start
+
+               Stratus DpOpt
+               =============
+              Version: 2019.1.01 
+
+  Copyright (c) 2014-2019 Cadence Design Systems.  All rights reserved worldwide.
+  
+  Warning: This computer program is protected by copyright law and 
+  international treaties.  Unauthorized reproduction, modification, 
+  or distribution of this program, or any portion of it, may result 
+  in severe civil and criminal penalties.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+  
+  Info: Script "/usr/cadtool/cadence/STRATUS/cur/share/stratus/tcl/bdw_cmd_shell.tcl" run successfully
+
+##########################################################################
+# Starting in server mode with port 41637
+#   client pid = 4370
+##########################################################################
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+WARNING: No library loaded, loading generic library. (CMDSHELL-13)
+WARNING: No directories in variable lib_path  (CMDSHELL-10)
+INFO: Reading LBF file '/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/libs/generic.lbf' and building datastructures (LBFPARSE-1)
+INFO: Reading LBF file '/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/libs/gencount.lbf' and building datastructures (LBFPARSE-1)
+INFO: Constructing composite cells (CMDSHELL-4)
+INFO: Library load complete (CMDSHELL-5)
+INFO: Instantiating implementation module "SobelFilter_Div_8U_27_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Div_8U_27_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Div_8U_27_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Div_8U_27_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Div_8U_27_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Div_8U_27_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Div_8U_27_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Div_8U_27_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Div_8U_27_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Div_8U_27_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2iLLu9_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2iLLu9_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2iLLu9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2iLLu9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2iLLu9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2iLLu9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2iLLu9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2iLLu9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2iLLu9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2iLLu9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2iLLu9_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2iLLu9_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2iLLu9_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2iLLu9_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2iLLu9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2iLLu9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2iLLu9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2iLLu9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2iLLu9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2iLLu9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2iLLu9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2iLLu9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2iLLu9_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2iLLu9_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2Mul2iLLu8Mul2i299u8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2Mul2iLLu8Mul2i299u8_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2Mul2iLLu8Mul2i299u8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2Mul2iLLu8Mul2i299u8_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_gen000001_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_gen000001_4.sdl(2,3): INFO: Running flattening on "SobelFilter_gen000001_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_gen000001_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_gen000001_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_gen000001_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_gen000001_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_gen000001_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_gen000001_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_gen000001_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_gen000001_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_gen000001_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_gen000001_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_gen000001_4.sdl(2,3): INFO: Running flattening on "SobelFilter_gen000001_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_gen000001_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_gen000001_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_gen000001_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_gen000001_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_gen000001_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_gen000001_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_gen000001_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_gen000001_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_gen000001_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u9_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u9_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u9_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u9_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u9_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u9_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add3u9u2Cati0u2_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add3u9u2Cati0u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add3u9u2Cati0u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add3u9u2Cati0u2_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add3u9u2Cati0u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add3u9u2Cati0u2_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add3u9u2Cati0u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add3u9u2Cati0u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add3u9u2Cati0u2_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add3u9u2Cati0u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_LtiLLs11_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_4.sdl(2,3): INFO: Running flattening on "SobelFilter_LtiLLs11_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_LtiLLs11_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_LtiLLs11_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_LtiLLs11_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_LtiLLs11_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_4.sdl(2,3): INFO: Running flattening on "SobelFilter_LtiLLs11_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_LtiLLs11_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_LtiLLs11_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_LtiLLs11_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i299u8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i299u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i299u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i299u8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i299u8_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i299u8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i299u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i299u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i299u8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i299u8_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2iLLu8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2iLLu8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2iLLu8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2iLLu8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2iLLu8_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2iLLu8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2iLLu8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2iLLu8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2iLLu8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2iLLu8_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2n128s8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2n128s8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2n128s8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2n128s8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2n128s8_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2n128s8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2n128s8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2n128s8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2n128s8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2n128s8_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i144u8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i144u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i144u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i144u8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i144u8_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i144u8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i144u8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i144u8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i144u8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i144u8_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2Mul2s8u8s8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2Mul2s8u8s8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2Mul2s8u8s8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2Mul2s8u8s8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2Mul2s8u8s8_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2Mul2s8u8s8_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2Mul2s8u8s8_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2Mul2s8u8s8_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2Mul2s8u8s8_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2Mul2s8u8s8_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Lti3u2_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Lti3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Lti3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Lti3u2_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Lti3u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Lti3u2_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Lti3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Lti3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Lti3u2_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Lti3u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u2_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u2_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u2_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u2_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2u2Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2u2Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2u2Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2u2Mul2i3u2_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2u2Mul2i3u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2u2Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2u2Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2u2Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2u2Mul2i3u2_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2u2Mul2i3u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Lti2s3_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Lti2s3_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Lti2s3_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Lti2s3_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Lti2s3_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Lti2s3_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Lti2s3_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Lti2s3_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Lti2s3_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Lti2s3_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i3u2_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i3u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i3u2_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i3u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u1_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u1_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u1_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u1_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u1_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u1_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u1_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u1_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u1_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u1_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Div_8U_27_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Div_8U_27_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Div_8U_27_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Div_8U_27_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Div_8U_27_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Div_8U_27_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Div_8U_27_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Div_8U_27_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Div_8U_27_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Div_8U_27_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Div_8U_27_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Div_8U_27_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_R18_3Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add3Mul2i144u8Mul2iLLu8Mul2i299u8_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2Mul2iLLu8Mul2i299u8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2Mul2iLLu8Mul2i299u8_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2iLLu8Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2iLLu8Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2Mul2iLLu8Mul2i299u8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2Mul2iLLu8Mul2i299u8_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u9_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u9_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u9_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u9_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u9_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u9_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u9_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u9_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u9_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u9_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add3u9u2Cati0u2_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add3u9u2Cati0u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add3u9u2Cati0u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add3u9u2Cati0u2_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add3u9u2Cati0u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add3u9u2Cati0u2_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add3u9u2Cati0u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add3u9u2Cati0u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add3u9u2Cati0u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add3u9u2Cati0u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add3u9u2Cati0u2_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add3u9u2Cati0u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_LtiLLs11_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_1.sdl(2,3): INFO: Running flattening on "SobelFilter_LtiLLs11_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_LtiLLs11_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_LtiLLs11_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_LtiLLs11_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_LtiLLs11_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_1.sdl(2,3): INFO: Running flattening on "SobelFilter_LtiLLs11_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_LtiLLs11_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_LtiLLs11_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_LtiLLs11_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_LtiLLs11_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_LtiLLs11_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i299u8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i299u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i299u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i299u8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i299u8_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i299u8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i299u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i299u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i299u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i299u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i299u8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i299u8_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2iLLu8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2iLLu8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2iLLu8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2iLLu8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2iLLu8_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2iLLu8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2iLLu8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2iLLu8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2iLLu8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2iLLu8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2iLLu8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2iLLu8_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2n128s8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2n128s8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2n128s8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2n128s8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2n128s8_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2n128s8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2n128s8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2n128s8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2n128s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2n128s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2n128s8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2n128s8_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i144u8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i144u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i144u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i144u8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i144u8_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i144u8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i144u8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i144u8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i144u8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i144u8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i144u8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i144u8_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2Mul2s8u8s8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2Mul2s8u8s8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2Mul2s8u8s8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2Mul2s8u8s8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2Mul2s8u8s8_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2Mul2s8u8s8_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2Mul2s8u8s8_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2Mul2s8u8s8_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2Mul2s8u8s8_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2Mul2s8u8s8_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2Mul2s8u8s8_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2Mul2s8u8s8_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Lti3u2_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Lti3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Lti3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Lti3u2_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Lti3u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Lti3u2_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Lti3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Lti3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Lti3u2_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Lti3u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u2_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u2_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u2_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u2_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2u2Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2u2Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2u2Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2u2Mul2i3u2_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2u2Mul2i3u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2u2Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2u2Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2u2Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2u2Mul2i3u2_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2u2Mul2i3u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Lti2s3_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Lti2s3_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Lti2s3_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Lti2s3_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Lti2s3_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Lti2s3_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Lti2s3_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Lti2s3_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Lti2s3_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Lti2s3_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Lti2s3_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Lti2s3_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i3u2_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i3u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Mul2i3u2_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Mul2i3u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u1_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u1_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u1_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u1_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u1_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add2i1u1_1" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_1.sdl(2,3): INFO: Running flattening on "SobelFilter_Add2i1u1_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add2i1u1_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add2i1u1_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add2i1u1_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add2i1u1_1 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add2i1u1_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add_5U_36_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add_5U_36_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add_5U_36_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add_5U_36_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add_5U_36_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add_5U_36_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add_5U_36_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add_5U_36_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add_5U_36_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add_5U_36_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add_5U_36_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add_5U_36_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_Add_5U_36_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add_5U_36_4.sdl(2,3): INFO: Running flattening on "SobelFilter_Add_5U_36_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_Add_5U_36_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add_5U_36_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add_5U_36_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add_5U_36_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add_5U_36_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_Add_5U_36_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_Add_5U_36_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_Add_5U_36_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_Add_5U_36_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_DECODE_32U_35_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_DECODE_32U_35_4.sdl(2,3): INFO: Running flattening on "SobelFilter_DECODE_32U_35_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_DECODE_32U_35_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_DECODE_32U_35_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_DECODE_32U_35_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_DECODE_32U_35_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_DECODE_32U_35_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_DECODE_32U_35_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_DECODE_32U_35_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_DECODE_32U_35_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_DECODE_32U_35_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "SobelFilter_DECODE_32U_35_4" (CMDSHELL-8)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_DECODE_32U_35_4.sdl(2,3): INFO: Running flattening on "SobelFilter_DECODE_32U_35_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "SobelFilter_DECODE_32U_35_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_DECODE_32U_35_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_DECODE_32U_35_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_DECODE_32U_35_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_DECODE_32U_35_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/SobelFilter_DECODE_32U_35_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "SobelFilter_DECODE_32U_35_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model SobelFilter_DECODE_32U_35_4 for output to /home/m109/m109061613/EE6470/test/batch/stratus/bdw_work/modules/SobelFilter/DPA/v_rtl/SobelFilter_DECODE_32U_35_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+

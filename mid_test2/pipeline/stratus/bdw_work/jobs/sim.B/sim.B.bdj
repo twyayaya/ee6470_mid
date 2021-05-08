@@ -1,0 +1,12 @@
+28312
+28316
+ws32
+bdw_work/trace/sim.B.trace
+2
+0
+0
+0
+1619811556
+1619811598
+make --no-print-directory -f Makefile CWBExec=1 sim_B
+

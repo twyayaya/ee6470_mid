@@ -1,0 +1,66 @@
+irun(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s039: Started on May 05, 2021 at 00:12:57 CST
+irun
+	+nc64bit
+	+incdir+/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib
+	+incdir+bdw_work/wrappers
+	+access+rw
+	+loadpli1=/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/ncvlog_ssl:ssl_bootstrap
+	+ncinput+bdw_work/sims/V_BASIC/ncverilog.do
+	+nclibdirname+bdw_work/sims/V_BASIC
+	-f bdw_work/sims/V_BASIC/siminfo
+		bdw_work/sims/top_V_BASIC.v
+		bdw_work/wrappers/SobelFilter_cosim.v
+		bdw_work/modules/SobelFilter/BASIC/SobelFilter_rtl.v
+		bdw_work/modules/SobelFilter/BASIC/v_rtl/SobelFilter_ROM_9X32_filter2.v
+		bdw_work/modules/SobelFilter/BASIC/v_rtl/SobelFilter_RAM_1536X8_1.v
+	+libext+.v
+	+define+ioConfig
+	+define+BDW_RTL_SobelFilter_BASIC
+	+nowarn+LIBNOU
+	+hubSetOption+libdef=bdw_work/sims/V_BASIC/sim_V_BASIC.so
+	+hubSetOption+bdr=bdw_work/sims/V_BASIC/sim.bdr
+	-l bdw_work/sims/V_BASIC/bdw_sim_verilog.log
+
+   User defined plus("+") options:
+	+hubSetOption+libdef=bdw_work/sims/V_BASIC/sim_V_BASIC.so
+	+hubSetOption+bdr=bdw_work/sims/V_BASIC/sim.bdr
+
+Recompiling... reason: file './bdw_work/modules/SobelFilter/BASIC/SobelFilter_rtl.v' is newer than expected.
+	expected: Mon May  3 02:03:50 2021
+	actual:   Wed May  5 00:05:48 2021
+file: bdw_work/modules/SobelFilter/BASIC/v_rtl/SobelFilter_RAM_1536X8_1.v
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 7       5
+		Registers:             218     214
+		Scalar wires:           36       -
+		Vectored wires:         37       -
+		Always blocks:          89      87
+		Initial blocks:         10      10
+		Cont. assignments:      34      47
+		Pseudo assignments:     19      19
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+NOTE: Cadence Design Systems Hub Simulation Platform : version 19.12-s100
+Simulation stopped via $stop(1) at time 459520095100 PS + 0
+./bdw_work/sims/top_V_BASIC.v:69 		#100 $stop;
+ncsim> quit
+TOOL:	irun(64)	15.20-s039: Exiting on May 05, 2021 at 00:45:05 CST  (total: 00:32:08)

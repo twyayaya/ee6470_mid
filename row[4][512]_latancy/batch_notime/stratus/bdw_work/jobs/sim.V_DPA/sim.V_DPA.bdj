@@ -1,0 +1,12 @@
+19543
+19546
+ws32
+bdw_work/trace/sim.V_DPA.trace
+2
+0
+0
+0
+1620233349
+1620233671
+make --no-print-directory -f Makefile CWBExec=1 sim_V_DPA
+

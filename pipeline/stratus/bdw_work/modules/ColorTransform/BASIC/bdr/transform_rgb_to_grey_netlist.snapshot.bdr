@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<netlist>
+	<module_name>transform_rgb_to_grey</module_name>
+</netlist>

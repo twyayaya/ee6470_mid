@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<tool_log>
+	<tool_kind>LogicSimulator</tool_kind>
+	<tool_name>NC Verilog</tool_name>
+	<hostname>ws32</hostname>
+	<uname>Linux 3.10.0-1127.19.1.el7.x86_64 x86_64</uname>
+	<cwd>/home/m109/m109061613/EE6470/test/pipeline/stratus</cwd>
+	<user>m109061613</user>
+	<gen_time>Sun May  2 00:56:04 2021</gen_time>
+	<module_inst>
+		<module_name>ColorTransform</module_name>
+		<inst_path>sys.color_transform</inst_path>
+		<representation>RTL_V</representation>
+	</module_inst>
+	<module_inst>
+		<module_name>ImageGradient</module_name>
+		<inst_path>sys.image_gradient</inst_path>
+		<representation>RTL_V</representation>
+	</module_inst>
+	<end_time>Sun May  2 01:06:44 2021</end_time>
+	<passed>1</passed>
+</tool_log>
